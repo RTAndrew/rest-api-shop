@@ -46,8 +46,24 @@ app.all('/', (req, res) => {
 
 
 
+
+
+
+
+
 const ProductRoute = require('./Routes/Product.route')
 app.use('/products', ProductRoute);
+
+const SaleRoute = require('./Routes/Sale.route')
+app.use('/sales', SaleRoute);
+
+
+
+
+
+
+
+
 
 
 // Error handler
