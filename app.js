@@ -57,6 +57,9 @@ app.use('/products', ProductRoute);
 const SaleRoute = require('./Routes/Sale.route')
 app.use('/sales', SaleRoute);
 
+const ClientRoute = require('./Routes/Client.route')
+app.use('/clients', ClientRoute);
+
 
 
 
